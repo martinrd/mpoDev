@@ -9,5 +9,6 @@ tsPlotMP = function(ret,add.grid = F,cex = 1.0, layout = NULL,type = "l",
          xlab="", ylab = list(label = yname,cex = cex), lwd = lwd,
          scales = list(y = list(cex = cex,relation=scaleType),
                        x = list(cex = cex)),layout = layout,
-                       col = color, strip = F, strip.left = T) 
+                       col = color, strip = F, strip.left = T)
+  # Test commit
 }
